@@ -11,7 +11,7 @@ node
 //   }
   stage ("Docker Build")
   {
-   sh "docker build -t eureka-server-image ."
+   sh "docker build -t crud-demo ."
    sh "docker images"
   }
   stage ("Docker Run")
