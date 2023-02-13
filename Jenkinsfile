@@ -16,7 +16,7 @@ node
   }
   stage ("Docker Run")
   {
-   sh "docker run -d -p 8787:8080 --name demo-container demo-endpoint" 
+   sh "docker run -d -p 8787:8080 --name demo-container crud-demo" 
    sh "docker ps"
   }
 }
